@@ -7,27 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE913A982B8B2947007172D5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE913A972B8B2947007172D5 /* MapView.swift */; };
-		EE913A9A2B8B5C80007172D5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE913A992B8B5C80007172D5 /* CircleImage.swift */; };
-		EE913A9C2B8B5D6C007172D5 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE913A9B2B8B5D6C007172D5 /* Landmark.swift */; };
-		EE913A9E2B8B5F22007172D5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE913A9D2B8B5F22007172D5 /* ModelData.swift */; };
-		EE913AA62B8B6091007172D5 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE913AA52B8B6091007172D5 /* LandmarkRow.swift */; };
-		EE913AA82B8B6445007172D5 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = EE913AA72B8B6444007172D5 /* Resources */; };
-		EECF404E2B7A3AD000EE3E4B /* HamsterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF404D2B7A3AD000EE3E4B /* HamsterApp.swift */; };
 		EECF40502B7A3AD000EE3E4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF404F2B7A3AD000EE3E4B /* ContentView.swift */; };
 		EECF40522B7A3AD500EE3E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECF40512B7A3AD500EE3E4B /* Assets.xcassets */; };
 		EECF40552B7A3AD500EE3E4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECF40542B7A3AD500EE3E4B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE913A972B8B2947007172D5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		EE913A992B8B5C80007172D5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		EE913A9B2B8B5D6C007172D5 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
-		EE913A9D2B8B5F22007172D5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		EE913AA52B8B6091007172D5 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
-		EE913AA72B8B6444007172D5 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = "../../../Desktop/学習/プログラミング/Swift/公式tutorial/BuildingListsAndNavigation/Resources"; sourceTree = "<group>"; };
 		EECF404A2B7A3AD000EE3E4B /* Hamster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hamster.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EECF404D2B7A3AD000EE3E4B /* HamsterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamsterApp.swift; sourceTree = "<group>"; };
 		EECF404F2B7A3AD000EE3E4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EECF40512B7A3AD500EE3E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EECF40542B7A3AD500EE3E4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,26 +30,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE913A9F2B8B5FCA007172D5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				EECF404F2B7A3AD000EE3E4B /* ContentView.swift */,
-				EE913AA52B8B6091007172D5 /* LandmarkRow.swift */,
-				EE913A992B8B5C80007172D5 /* CircleImage.swift */,
-				EE913A972B8B2947007172D5 /* MapView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		EE913AA02B8B5FF4007172D5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				EE913A9D2B8B5F22007172D5 /* ModelData.swift */,
-				EE913A9B2B8B5D6C007172D5 /* Landmark.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		EECF40412B7A3AD000EE3E4B = {
 			isa = PBXGroup;
 			children = (
@@ -83,11 +49,8 @@
 		EECF404C2B7A3AD000EE3E4B /* Hamster */ = {
 			isa = PBXGroup;
 			children = (
-				EE913A9F2B8B5FCA007172D5 /* Views */,
-				EE913AA02B8B5FF4007172D5 /* Model */,
+				EECF404F2B7A3AD000EE3E4B /* ContentView.swift */,
 				EECF40512B7A3AD500EE3E4B /* Assets.xcassets */,
-				EECF404D2B7A3AD000EE3E4B /* HamsterApp.swift */,
-				EE913AA72B8B6444007172D5 /* Resources */,
 				EECF40532B7A3AD500EE3E4B /* Preview Content */,
 			);
 			path = Hamster;
@@ -159,7 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE913AA82B8B6445007172D5 /* Resources in Resources */,
 				EECF40552B7A3AD500EE3E4B /* Preview Assets.xcassets in Resources */,
 				EECF40522B7A3AD500EE3E4B /* Assets.xcassets in Resources */,
 			);
@@ -173,12 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EECF40502B7A3AD000EE3E4B /* ContentView.swift in Sources */,
-				EE913A9A2B8B5C80007172D5 /* CircleImage.swift in Sources */,
-				EE913A982B8B2947007172D5 /* MapView.swift in Sources */,
-				EECF404E2B7A3AD000EE3E4B /* HamsterApp.swift in Sources */,
-				EE913A9C2B8B5D6C007172D5 /* Landmark.swift in Sources */,
-				EE913AA62B8B6091007172D5 /* LandmarkRow.swift in Sources */,
-				EE913A9E2B8B5F22007172D5 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
