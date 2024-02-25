@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE913A962B8B28B8007172D5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE913A952B8B28B8007172D5 /* CircleImage.swift */; };
+		EE913A982B8B2947007172D5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE913A972B8B2947007172D5 /* MapView.swift */; };
 		EECF404E2B7A3AD000EE3E4B /* HamsterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF404D2B7A3AD000EE3E4B /* HamsterApp.swift */; };
 		EECF40502B7A3AD000EE3E4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF404F2B7A3AD000EE3E4B /* ContentView.swift */; };
 		EECF40522B7A3AD500EE3E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECF40512B7A3AD500EE3E4B /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE913A952B8B28B8007172D5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		EE913A972B8B2947007172D5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EECF404A2B7A3AD000EE3E4B /* Hamster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hamster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECF404D2B7A3AD000EE3E4B /* HamsterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamsterApp.swift; sourceTree = "<group>"; };
 		EECF404F2B7A3AD000EE3E4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 				EECF404D2B7A3AD000EE3E4B /* HamsterApp.swift */,
 				EECF404F2B7A3AD000EE3E4B /* ContentView.swift */,
 				EECF40512B7A3AD500EE3E4B /* Assets.xcassets */,
+				EE913A952B8B28B8007172D5 /* CircleImage.swift */,
+				EE913A972B8B2947007172D5 /* MapView.swift */,
 				EECF40532B7A3AD500EE3E4B /* Preview Content */,
 			);
 			path = Hamster;
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EECF40502B7A3AD000EE3E4B /* ContentView.swift in Sources */,
+				EE913A982B8B2947007172D5 /* MapView.swift in Sources */,
 				EECF404E2B7A3AD000EE3E4B /* HamsterApp.swift in Sources */,
+				EE913A962B8B28B8007172D5 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
