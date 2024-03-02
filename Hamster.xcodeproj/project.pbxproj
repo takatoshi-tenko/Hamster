@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1CEC022B8CADB20073E1F2 /* HamsterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1CEC012B8CADB20073E1F2 /* HamsterApp.swift */; };
 		EECF40502B7A3AD000EE3E4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF404F2B7A3AD000EE3E4B /* ContentView.swift */; };
 		EECF40522B7A3AD500EE3E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECF40512B7A3AD500EE3E4B /* Assets.xcassets */; };
 		EECF40552B7A3AD500EE3E4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECF40542B7A3AD500EE3E4B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE1CEC012B8CADB20073E1F2 /* HamsterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamsterApp.swift; sourceTree = "<group>"; };
 		EECF404A2B7A3AD000EE3E4B /* Hamster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hamster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECF404F2B7A3AD000EE3E4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EECF40512B7A3AD500EE3E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		EECF404C2B7A3AD000EE3E4B /* Hamster */ = {
 			isa = PBXGroup;
 			children = (
+				EE1CEC012B8CADB20073E1F2 /* HamsterApp.swift */,
 				EECF404F2B7A3AD000EE3E4B /* ContentView.swift */,
 				EECF40512B7A3AD500EE3E4B /* Assets.xcassets */,
 				EECF40532B7A3AD500EE3E4B /* Preview Content */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1CEC022B8CADB20073E1F2 /* HamsterApp.swift in Sources */,
 				EECF40502B7A3AD000EE3E4B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
